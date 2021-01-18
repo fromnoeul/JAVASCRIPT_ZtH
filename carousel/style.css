@@ -1,0 +1,46 @@
+.slide {
+  background-color: white;
+  position: absolute;
+  text-align: center;
+  line-height: 200%;
+  width: 100%;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.lyrics {
+  font-family: "Times New Roman", Times, serif;
+  color: #969696;
+  font-size: 15px;
+}
+
+.artist {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 14px;
+}
+
+.showing {
+  z-index: 1;
+  opacity: 1;
+  transform: translate(0, -50%);
+}
+
+#prev,
+#next {
+  position: absolute;
+  border: none;
+  background: none;
+  top: 50%;
+  z-index: 2;
+}
+
+#prev {
+  left: 5%;
+}
+
+#next {
+  right: 5%;
+}
