@@ -9,3 +9,7 @@
   - Exercise of menu
   - Javascript
   - Icon source : Font Awesome
+#
+3. modal
+  - Exercise of modal
+  - Javascript
